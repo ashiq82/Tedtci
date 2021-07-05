@@ -1093,3 +1093,452 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.mpc.core 4 0 2021-07-05 13:16:52.654
+!MESSAGE Userstorage API failed to initialize: Temporary folder could not be created
+!STACK 0
+java.lang.RuntimeException: Temporary folder could not be created
+	at org.eclipse.userstorage.util.FileStorageCache.createTempFolder(FileStorageCache.java:271)
+	at org.eclipse.userstorage.util.FileStorageCache.<init>(FileStorageCache.java:54)
+	at org.eclipse.userstorage.util.FileStorageCache$SingleApplication.<init>(FileStorageCache.java:281)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.createStorage(MarketplaceStorageService.java:121)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.getStorage(MarketplaceStorageService.java:145)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.activate(MarketplaceStorageService.java:240)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerStorageService(ServiceLocator.java:345)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerFavoritesService(ServiceLocator.java:319)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:81)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.listCatalogs(DefaultCatalogService.java:56)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.lambda$0(AbstractMarketplaceWizardCommand.java:169)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2021-07-05 13:16:52.656
+!MESSAGE Temporary folder could not be created
+!STACK 0
+java.lang.RuntimeException: Temporary folder could not be created
+	at org.eclipse.userstorage.util.FileStorageCache.createTempFolder(FileStorageCache.java:271)
+	at org.eclipse.userstorage.util.FileStorageCache.<init>(FileStorageCache.java:54)
+	at org.eclipse.userstorage.util.FileStorageCache$SingleApplication.<init>(FileStorageCache.java:281)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.createStorage(MarketplaceStorageService.java:121)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.getStorage(MarketplaceStorageService.java:145)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.activate(MarketplaceStorageService.java:240)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerStorageService(ServiceLocator.java:345)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerFavoritesService(ServiceLocator.java:319)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:81)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.listCatalogs(DefaultCatalogService.java:56)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.lambda$0(AbstractMarketplaceWizardCommand.java:169)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.epp.mpc.core 4 0 2021-07-05 13:16:53.154
+!MESSAGE Userstorage API failed to initialize: Temporary folder could not be created
+!STACK 0
+java.lang.RuntimeException: Temporary folder could not be created
+	at org.eclipse.userstorage.util.FileStorageCache.createTempFolder(FileStorageCache.java:271)
+	at org.eclipse.userstorage.util.FileStorageCache.<init>(FileStorageCache.java:54)
+	at org.eclipse.userstorage.util.FileStorageCache$SingleApplication.<init>(FileStorageCache.java:281)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.createStorage(MarketplaceStorageService.java:121)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.getStorage(MarketplaceStorageService.java:145)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.activate(MarketplaceStorageService.java:240)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerStorageService(ServiceLocator.java:345)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerFavoritesService(ServiceLocator.java:319)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:81)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.listCatalogs(DefaultCatalogService.java:56)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.lambda$0(AbstractMarketplaceWizardCommand.java:169)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2021-07-05 13:16:53.155
+!MESSAGE Temporary folder could not be created
+!STACK 0
+java.lang.RuntimeException: Temporary folder could not be created
+	at org.eclipse.userstorage.util.FileStorageCache.createTempFolder(FileStorageCache.java:271)
+	at org.eclipse.userstorage.util.FileStorageCache.<init>(FileStorageCache.java:54)
+	at org.eclipse.userstorage.util.FileStorageCache$SingleApplication.<init>(FileStorageCache.java:281)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.createStorage(MarketplaceStorageService.java:121)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.getStorage(MarketplaceStorageService.java:145)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.activate(MarketplaceStorageService.java:240)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerStorageService(ServiceLocator.java:345)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerFavoritesService(ServiceLocator.java:319)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:81)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.listCatalogs(DefaultCatalogService.java:56)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.lambda$0(AbstractMarketplaceWizardCommand.java:169)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.epp.mpc.core 4 0 2021-07-05 13:16:53.595
+!MESSAGE Userstorage API failed to initialize: Temporary folder could not be created
+!STACK 0
+java.lang.RuntimeException: Temporary folder could not be created
+	at org.eclipse.userstorage.util.FileStorageCache.createTempFolder(FileStorageCache.java:271)
+	at org.eclipse.userstorage.util.FileStorageCache.<init>(FileStorageCache.java:54)
+	at org.eclipse.userstorage.util.FileStorageCache$SingleApplication.<init>(FileStorageCache.java:281)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.createStorage(MarketplaceStorageService.java:121)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.getStorage(MarketplaceStorageService.java:145)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.activate(MarketplaceStorageService.java:240)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerStorageService(ServiceLocator.java:345)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerFavoritesService(ServiceLocator.java:319)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:81)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.listCatalogs(DefaultCatalogService.java:56)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.lambda$0(AbstractMarketplaceWizardCommand.java:169)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2021-07-05 13:16:53.596
+!MESSAGE Temporary folder could not be created
+!STACK 0
+java.lang.RuntimeException: Temporary folder could not be created
+	at org.eclipse.userstorage.util.FileStorageCache.createTempFolder(FileStorageCache.java:271)
+	at org.eclipse.userstorage.util.FileStorageCache.<init>(FileStorageCache.java:54)
+	at org.eclipse.userstorage.util.FileStorageCache$SingleApplication.<init>(FileStorageCache.java:281)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.createStorage(MarketplaceStorageService.java:121)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.getStorage(MarketplaceStorageService.java:145)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceStorageService.activate(MarketplaceStorageService.java:240)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerStorageService(ServiceLocator.java:345)
+	at org.eclipse.epp.internal.mpc.core.ServiceLocator.registerFavoritesService(ServiceLocator.java:319)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:81)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.registerDynamicFavoritesService(DefaultCatalogService.java:71)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultCatalogService.listCatalogs(DefaultCatalogService.java:56)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.lambda$0(AbstractMarketplaceWizardCommand.java:169)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:16:53.776
+!MESSAGE Failed to retrieve catalog image for Eclipse Marketplace from https://marketplace.eclipse.org/sites/default/files/eclipse-catalog.png
+!STACK 0
+java.io.IOException: Unable to create temporary resource folder C:\Users\mashi\AppData\Local\Temp\ResourceProvider3857758496569802092.tmp
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.init(ResourceProvider.java:217)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.registerResource(ResourceProvider.java:245)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.retrieveResource(ResourceProvider.java:292)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.retrieveResource(ResourceProvider.java:278)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.installRemoteCatalogs(AbstractMarketplaceWizardCommand.java:188)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.createConfiguration(AbstractMarketplaceWizardCommand.java:92)
+	at org.eclipse.epp.internal.mpc.ui.commands.MarketplaceWizardCommand.createConfiguration(MarketplaceWizardCommand.java:64)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.execute(AbstractMarketplaceWizardCommand.java:67)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceClientService.execute(MarketplaceClientService.java:153)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceClientService.open(MarketplaceClientService.java:111)
+	at org.eclipse.epp.internal.mpc.ui.discovery.ShowFileSupportProposalsJob.runInUIThread(ShowFileSupportProposalsJob.java:71)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:16:55.164
+!MESSAGE Failed to download resource for catalog 'Eclipse Marketplace' (38413) from https://marketplace.eclipse.org/sites/default/files/marketplace_catalog_icon_0.png
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:16:55.210
+!MESSAGE Failed to download resource for catalog 'Obeo Marketplace' (2671769) from https://marketplace.eclipse.org/sites/default/files/icon_obeo_transparent64.png
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:16:55.220
+!MESSAGE Failed to download resource for catalog 'Red Hat' (2704390) from https://marketplace.eclipse.org/sites/default/files/32x32.png
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:16:55.268
+!MESSAGE Failed to download resource for catalog 'Obeo Marketplace' (2671769) from https://marketplace.eclipse.org/sites/default/files/icon_obeo_transparent_100x100.png
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:16:55.310
+!MESSAGE Failed to download resource for catalog 'Eclipse Marketplace' (38413) from https://marketplace.eclipse.org/sites/default/files/eclipse-catalog.png
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:16:56.794
+!MESSAGE Failed to download resource for catalog 'Red Hat' (2704390) from https://marketplace.eclipse.org/sites/default/files/76x66.png
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2021-07-05 13:16:57.789
+!MESSAGE The image could not be loaded: org.eclipse.epp.internal.mpc.ui.catalog.ResourceProviderImageDescriptor@36b284b1
+!STACK 0
+org.eclipse.jface.resource.DeviceResourceException: Unable to create resource org.eclipse.epp.internal.mpc.ui.catalog.ResourceProviderImageDescriptor@36b284b1
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:229)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProviderImageDescriptor.createResource(ResourceProviderImageDescriptor.java:83)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)
+	at org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:195)
+	at org.eclipse.jface.resource.ImageRegistry.get(ImageRegistry.java:206)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcherItem.getCatalogIcon(CatalogSwitcherItem.java:124)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcherItem$1.run(CatalogSwitcherItem.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2021-07-05 13:16:57.830
+!MESSAGE The image could not be loaded: org.eclipse.epp.internal.mpc.ui.catalog.ResourceProviderImageDescriptor@5b726f24
+!STACK 0
+org.eclipse.jface.resource.DeviceResourceException: Unable to create resource org.eclipse.epp.internal.mpc.ui.catalog.ResourceProviderImageDescriptor@5b726f24
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:229)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProviderImageDescriptor.createResource(ResourceProviderImageDescriptor.java:83)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)
+	at org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:195)
+	at org.eclipse.jface.resource.ImageRegistry.get(ImageRegistry.java:206)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcherItem.getCatalogIcon(CatalogSwitcherItem.java:124)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcherItem$1.run(CatalogSwitcherItem.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2021-07-05 13:16:57.835
+!MESSAGE The image could not be loaded: org.eclipse.epp.internal.mpc.ui.catalog.ResourceProviderImageDescriptor@1d47f5d4
+!STACK 0
+org.eclipse.jface.resource.DeviceResourceException: Unable to create resource org.eclipse.epp.internal.mpc.ui.catalog.ResourceProviderImageDescriptor@1d47f5d4
+	at org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:229)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProviderImageDescriptor.createResource(ResourceProviderImageDescriptor.java:83)
+	at org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)
+	at org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)
+	at org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:195)
+	at org.eclipse.jface.resource.ImageRegistry.get(ImageRegistry.java:206)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcherItem.getCatalogIcon(CatalogSwitcherItem.java:124)
+	at org.eclipse.epp.internal.mpc.ui.wizards.CatalogSwitcherItem$1.run(CatalogSwitcherItem.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:17:02.623
+!MESSAGE Failed to download resource for entry 'Yaml Editor 1.7.1' (4101183) from https://marketplace.eclipse.org/sites/default/files/styles/ds_medium/public/yaml-editor-logo.png?itok=xcaBoRC7
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:17:04.065
+!MESSAGE Failed to download resource for entry 'Wild Web Developer: HTML, CSS, JavaScript, TypeScript,  Node.js, Angular, JSON, YAML (+Kubernetes), XML 0.11.0' (3394048) from https://marketplace.eclipse.org/sites/default/files/styles/ds_medium/public/wild-web-developer-marketplace-logo.png?itok=mdpGbsXy
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:17:04.128
+!MESSAGE Failed to download resource for entry 'KaiZen OpenAPI Editor 0.8' (3429028) from https://marketplace.eclipse.org/sites/default/files/styles/ds_medium/public/Marketplace-Icon-%28110-x-80%29.png?itok=KdLeKJLS
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:17:04.173
+!MESSAGE Failed to download resource for entry 'impulse LogTrace Extension 2.1.4' (1550059) from https://marketplace.eclipse.org/sites/default/files/styles/ds_medium/public/impulse_logtrace_80.png?itok=4jd29bG3
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:17:04.193
+!MESSAGE Failed to download resource for entry 'KaiZen OpenAPI Editor 0.8' (3429028) from https://marketplace.eclipse.org/sites/default/files/styles/medium/public/Code%20Assist.gif?itok=Yn0LoWL0
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:17:04.245
+!MESSAGE Failed to download resource for entry 'LiClipseText 2.2.0' (2894763) from https://marketplace.eclipse.org/sites/default/files/styles/ds_medium/public/liclipsetext_banner.png?itok=nyK60JOP
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:17:04.297
+!MESSAGE Failed to download resource for entry 'YEdit' (949) from https://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/no_image.png
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:17:04.344
+!MESSAGE Failed to download resource for entry 'Wild Web Developer: HTML, CSS, JavaScript, TypeScript,  Node.js, Angular, JSON, YAML (+Kubernetes), XML 0.11.0' (3394048) from https://marketplace.eclipse.org/sites/default/files/styles/medium/public/bluesky-screenshot.png?itok=CEgRzzXN
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:17:04.422
+!MESSAGE Failed to download resource for entry 'impulse 2.1.4' (802368) from https://marketplace.eclipse.org/sites/default/files/styles/ds_medium/public/impulse2_80_0.png?itok=0YKtAswk
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:17:04.480
+!MESSAGE Failed to download resource for entry 'RepreZen API Studio - Powerful OpenAPI Design, Documentation &amp; Development 1.6' (3138718) from https://marketplace.eclipse.org/sites/default/files/styles/medium/public/2016-10-27%2023_12_07-RepreZen%20-%20Expanded%20Pet%20Store_models_petstore.yaml%20-%20RepreZen%20API%20Studio.png?itok=KImnX-sG
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:17:04.486
+!MESSAGE Failed to download resource for entry 'impulse LogTrace Extension 2.1.4' (1550059) from https://marketplace.eclipse.org/sites/default/files/styles/medium/public/extract_pattern.png?itok=tzSPvNw4
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:17:04.540
+!MESSAGE Failed to download resource for entry 'impulse 2.1.4' (802368) from https://marketplace.eclipse.org/sites/default/files/styles/medium/public/Screenshot%20from%202020-03-19%2010-05-15_0.png?itok=RsGeHmUk
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:17:05.654
+!MESSAGE Failed to download resource for entry 'Yaml Editor 1.7.1' (4101183) from https://marketplace.eclipse.org/sites/default/files/styles/medium/public/yaml-editor-overview-0.4.0.png?itok=4U8VouxB
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2021-07-05 13:17:06.423
+!MESSAGE Failed to download resource for entry 'RepreZen API Studio - Powerful OpenAPI Design, Documentation &amp; Development 1.6' (3138718) from https://marketplace.eclipse.org/sites/default/files/styles/ds_medium/public/icon_0.png?itok=ffpmFcf7
+!STACK 0
+java.io.IOException: The system cannot find the path specified
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.base/java.io.File.createTempFile(File.java:2107)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider.createTempFile(ResourceProvider.java:271)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.lambda$0(ResourceProvider.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$ResourceFuture.retrieve(ResourceProvider.java:149)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:310)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

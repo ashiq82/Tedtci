@@ -1,0 +1,10 @@
+name: Actions
+
+on: [push]
+
+jobs:
+    run-github:
+        runs-on: ubuntu-latest
+        steps:
+            - name: simplerest
+              run: echo "HHHHH"
