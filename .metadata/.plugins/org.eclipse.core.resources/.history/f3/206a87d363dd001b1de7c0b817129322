@@ -10,7 +10,7 @@ public class TestS6 {
 	{
 
 		DriverHandlers driver = new DriverHandlers();
-		driver.click("//a[text()='gmail']");
+		driver.click("//a[text()='mail']");
 	}
 
 }
