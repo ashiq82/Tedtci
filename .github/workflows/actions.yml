@@ -10,11 +10,10 @@ jobs:
             - name: simplerest
               uses: actions/checkout@v1 
                   
-            - name: TEst
+            - name: Test1
               run: echo $PWD                         
             - name: TEst
-              run: |
-              
-                cd ./testart/src/main/java/Mytest
+              run: |           
+                cd /home/runner/work/Tedtci/Tedtci/testart/src/main/java/Mytest
                 javac Testyt.java
                 java Testyt  
