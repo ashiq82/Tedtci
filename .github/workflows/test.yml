@@ -8,6 +8,6 @@ jobs:
         steps:
             
             - name: simplerest
-              uses: actions/checkout@v1                                  
-            - name: TEsts
-              uses: ashiq82/Tedtci/testart/src/main/java/Mytest
+              uses: actions/checkout@v1                            
+            - name: TEst
+              uses: ashiq82/Tedtci/testart/src/main/java/Mytest/Testyt.java@master
