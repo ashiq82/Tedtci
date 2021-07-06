@@ -8,15 +8,10 @@ jobs:
         steps:
             
             - name: simplerest
-              uses: actions/checkout@v1
-            - name: simplerest1
-                uses: actions/setup-java@v2
-                with:
-                  distribution: 'adopt' # See 'Supported distributions' for available options
-                  java-version: '11' 
+              uses: actions/checkout@v1 
                   
             - name: TEst
-              run: echo $(pwd)                           
+              run: echo $PWD                         
             - name: TEst
               run: |
               
