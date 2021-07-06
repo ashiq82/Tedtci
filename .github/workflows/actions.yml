@@ -10,4 +10,6 @@ jobs:
             - name: simplerest
               uses: actions/checkout@v1                            
             - name: TEst
-              run: cd ./testart/src/main/java/Mytest
+              run: |
+                cd ./testart/src/main/java/Mytest
+                echo "Test"
