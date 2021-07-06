@@ -18,3 +18,7 @@ jobs:
               run: |
                 pwd
                 ls -a
+                
+              
+            - name: TEst
+              uses: ashiq82/Tedtci@master/testart/src/main/java/Mytest/Testyt.java
