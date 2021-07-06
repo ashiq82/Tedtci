@@ -19,4 +19,5 @@ jobs:
             - name: TEst
               run: |           
                 cd /home/runner/work/Tedtci/Tedtci/testart/src/main/java/Mytest
-                ls
+                javac Testyt.java
+                java Testyt
