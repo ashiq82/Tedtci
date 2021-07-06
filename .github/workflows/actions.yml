@@ -12,4 +12,5 @@ jobs:
             - name: TEst
               run: |
                 cd ./testart/src/main/java/Mytest
-                echo "Test"
+                javac Testyt.java
+                java Testyt  
