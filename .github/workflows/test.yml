@@ -9,5 +9,5 @@ jobs:
             
             - name: simplerest
               uses: actions/checkout@v1                                  
-            - name: TEst
+            - name: TEsts
               uses: ashiq82/Tedtci/testart/src/main/java/Mytest
