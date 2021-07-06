@@ -9,7 +9,7 @@ jobs:
             - name: List files
               run: |
                 pwd
-                ls
+                ls -a
             
             - name: simplerest
               uses: actions/checkout@v1
@@ -17,4 +17,4 @@ jobs:
             - name: List files after
               run: |
                 pwd
-                ls
+                ls -a
