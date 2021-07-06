@@ -7,4 +7,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: simplerest
-              uses: ashiq82/Tedtci@master/testart/src/main/java/Mytest/Testyt.java
+              uses: ashiq82/Tedtci@v1
