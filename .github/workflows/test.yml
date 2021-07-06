@@ -12,7 +12,7 @@ jobs:
                 ls
             
             - name: simplerest
-              uses: ashiq82/checkout@v1
+              uses: actions/checkout@v1
               
             - name: List files after
               run: |
