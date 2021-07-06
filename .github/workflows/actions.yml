@@ -10,4 +10,5 @@ jobs:
             - name: simplerest
               uses: actions/checkout@v1                            
             - name: TEst
-              uses: ./testart/src/main/java/Mytest/Testyt.java@master
+              uses: cd ./testart/src/main/java/Mytest
+              run: echo "Twst"
