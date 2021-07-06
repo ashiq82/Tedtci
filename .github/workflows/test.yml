@@ -10,4 +10,4 @@ jobs:
             - name: simplerest
               uses: actions/checkout@v1                                  
             - name: TEst
-              uses: ./testart/src/main/java/Mytest
+              uses: ashiq82/Tedtci/testart/src/main/java/Mytest
