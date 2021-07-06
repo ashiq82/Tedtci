@@ -21,4 +21,4 @@ jobs:
                 
               
             - name: TEst
-              uses: ashiq82/Tedtci@master/testart/src/main/java/Mytest/Testyt.java
+              uses: ./testart/src/main/java/Mytest/Testyt.java
